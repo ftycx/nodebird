@@ -16,7 +16,7 @@ router.use((req, res, next) => {
 // '/profile' 경로로 GET 요청이 들어오면 renderProfile 컨트롤러 실행
 router.get('/profile', renderProfile);
 // '/join' 경로로 GET 요청이 들어오면 renderJoin 컨트롤러 실행
-router,get('/join', renderJoin);
+router.get('/join', renderJoin);
 // 루트 경로('/')로 GET 요청이 들어오면 renderMain 컨트롤러를\ 실행
 router.get('/', renderMain);
 
